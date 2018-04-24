@@ -242,6 +242,9 @@ a {
 	max-width: 1400px;
 }
 .footer_logo{
+	width:100%;
+}
+.footer_logo img{    
 	width: 200px;
 }
 .footerList{
@@ -329,12 +332,12 @@ a {
 
 
 @media screen and (min-width: 414px)  and (max-width: 1040px) and (orientation: portrait){
-    html {
-        font-size: 14px;
-    }
+	html {
+		font-size: 14px;
+	}
 }
 @media screen and (max-width: 414px) and (orientation: portrait) {
-    html {
-        font-size: 12px;
-    }
+	html {
+		font-size: 12px;
+	}
 }
