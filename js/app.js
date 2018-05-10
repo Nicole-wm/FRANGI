@@ -55,7 +55,7 @@ FrangiApp.config(["$stateProvider","$urlRouterProvider","$locationProvider",func
     })
     .state("frangistory", {
         url:"/frangistory",
-        templateUrl: "views/frangistory.html",
+        templateUrl: "views/frangistory.html?v=180510001",
         data: {pageTitle:'品牌故事'}
     })
     .state("shop", {
