@@ -38,7 +38,7 @@ FrangiApp.config(["$stateProvider","$urlRouterProvider","$locationProvider",func
     $stateProvider
     .state("home", {
         url: "/",
-        templateUrl: "views/home.html?v=18040301",
+        templateUrl: "views/home.html?v=180510001",
         data: {pageTitle:'FRANGI官方网站'},
         controller: "HomeController",
         resolve: {
@@ -65,12 +65,12 @@ FrangiApp.config(["$stateProvider","$urlRouterProvider","$locationProvider",func
     })
     .state("awards", {
         url:"/awards",
-        templateUrl: "views/awards.html?v=18040302",
+        templateUrl: "views/awards.html?v=18051101",
         data: {pageTitle:'国际设计'}
     })
     .state("top", {
         url:"/top",
-        templateUrl: "views/top.html",
+        templateUrl: "views/top.html?v=18051101",
         data: {pageTitle:'明星产品'}
     })
     .state('productcategories', {
